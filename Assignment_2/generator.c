@@ -14,12 +14,9 @@ int main(int argc, char **argv) {
     }
 
     srandom(seed);		
-    
-    // if (argc >= 2) {
-    int limit = atoi(argv[1]);
-    for (int i = 0; i < limit; i++) {
+    int numberOfElements = atoi(argv[1]);
+    for (int i = 0; i < numberOfElements; i++) {
         printf("%ld\n", random());
     }
-    // }
     return 0;
 }

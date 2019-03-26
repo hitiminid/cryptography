@@ -30,10 +30,12 @@ def subtract_r(previous, latter):
 
 	return set(new_list)
 
+
 def fill_data_list(data):
 	for i in range(343, 30, -1):
 		data[i] = subtract_r(data[i + 31], data[i + 28])
 	return data 
+
 
 def get_possible_seeds(data):
 	possible_seeds = []
@@ -47,13 +49,13 @@ def get_possible_seeds(data):
 def compare_possible_seeds(possible_seeds, first):
 	valid_seeds = []
 	for seed in possible_seeds:
-		possible_first = call_c(1, seed)
+		possible_first = call_c_random(1, seed)
 		if possible_first[0] == first: 
 			valid_seeds.append(seed)
 	return valid_seeds
 
 
-def call_c(size, seed):
+def call_c_random(size, seed):
 	proc = subprocess.Popen(
 		['./a.out', str(size), str(seed)], stdout=subprocess.PIPE)
 	out, _ = proc.communicate()
@@ -73,7 +75,7 @@ def main():
 	seeds = compare_possible_seeds(possible_seeds, first)
 	print(f"Seeds: {seeds}")
 
-	# ret = call_c(60, 1)
+	# ret = call_c_random(60, 1)
 	# print(ret)
 
 
