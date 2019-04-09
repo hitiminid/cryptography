@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ls test* | while read line; do dieharder -g 201 -a -f $line > result_$line; done

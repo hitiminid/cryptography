@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <iostream>
 #include <array>
 #include <vector>
@@ -6,53 +5,54 @@
 #include <string>
 #include <fstream>
 
-
 // BEGIN DEFINITIONS
-#define D_VALUE 3
-#define N_VALUE 256
-#define T_VALUE 256
-
-#define OUT_SIZE 1000000000
-#define OUT_BIT 8
-#define OUT_FILE "out_N_D0_T1233"
-
-static const unsigned int key[] = {};
-
-/*static const unsigned int key[] = { 248, 16, 215, 227, 15, 4, 14, 255, 7, 204, 10, 245, 181, 237, 13, 78, 197, 210,
- 51, 241, 98, 24, 3, 115, 97, 238, 16, 81, 153, 166, 130, 151, 31, 195, 19, 108,
- 169, 229, 12, 150, 191, 238, 240, 109, 178, 171, 230, 123, 248, 128, 231, 21,
- 171, 166, 197, 22, 171, 60, 9, 7, 244, 7, 94, 14, 193, 35, 75, 201, 159, 190,
- 216, 125, 192, 33, 199, 48, 94, 73, 59, 202, 88, 47, 96, 6, 206, 31, 227, 99,
- 96, 12, 218, 204, 95, 94, 127, 144, 33, 217, 137, 85, 138, 211, 136, 197, 152,
- 70, 79, 23, 31, 152, 60, 141, 46, 207, 158, 65, 18, 59, 145, 209, 209, 46, 36,
- 127, 162, 205, 123, 81 };
-*/
+long D_VALUE;
+long N_VALUE;
+long T_VALUE;
+long OUT_BIT;
+std::string OUT_FILE;
+static const unsigned int key[] = {155, 240, 121, 136, 50, 170, 165, 101, 215, 193,
+                                    0, 182, 75, 193, 23, 159, 34, 12, 177, 172, 218,
+                                    211, 243, 197, 165, 11, 219, 14, 197, 27, 86, 120,
+                                    67, 65, 224, 24, 16, 109, 140, 15, 93, 10, 246, 15, 186,
+                                    29, 232, 217, 19, 116, 193, 53, 112, 60, 18, 82, 229, 75,
+                                    43, 113, 71, 6, 219, 129, 16, 69, 243, 66, 108, 55, 137,
+                                    91, 143, 248, 166, 5, 244, 222, 29, 204, 196, 226, 150, 6,
+                                    164, 159, 203, 30, 159, 30, 9, 56, 251, 230, 223, 74, 38, 38,
+                                    218, 189, 219, 244, 149, 39, 98, 111, 108, 33, 64, 253, 97, 5,
+                                    225, 65, 129, 49, 14, 38, 128, 20, 180, 227, 170, 123, 140, 138,
+                                     45, 218};
 // END DEFINITIONS
 
-static unsigned int KEY_LEN = sizeof(key) / sizeof(int);
+unsigned int KEY_LEN;
 
 static std::vector<int> S;
 static unsigned int PRGA_I = 0;
 static unsigned int PRGA_J = 0;
 
-void KSA(const int N, const int T) {
-  // Initialize S with 0...n
+void KSA(const int N, const int T)
+{
+  // Initialize S with 0...n-1
   S.clear();
-  for (unsigned int i = 0; i <= N; i++) {
+  for (unsigned int i = 0; i < N; i++)
+  {
     S.push_back(i);
   }
 
   // Shuffle S
   unsigned int j = 0;
-  for (unsigned int i = 0; i <= T; i++) { // Run loop T+1 times
+  for (unsigned int i = 0; i <= T; i++)
+  { // Run loop T+1 times
     j = (j + S[i % N] + key[i % KEY_LEN]) % N;
     std::swap(S[i % N], S[j % N]);
   }
 }
 
-unsigned int PRGA() {
+unsigned int PRGA()
+{
   // Run loops D_VALUE + 1 times.
-  for (int i = 0; i < D_VALUE+1; i++) {
+  for (int i = 0; i < D_VALUE + 1; i++)
+  {
     PRGA_I = (PRGA_I + 1) % N_VALUE;
     PRGA_J = (PRGA_J + S[PRGA_I]) % N_VALUE;
     std::swap(S[PRGA_J], S[PRGA_I]);
@@ -60,25 +60,72 @@ unsigned int PRGA() {
   return S[(S[PRGA_J] + S[PRGA_I]) % N_VALUE];
 }
 
+std::ofstream myfile;
 
-int main(int argc, char* argv[]) {
+int xw = 0;
+int xn = 0;
+long long awrite_bits(char res)
+{
+  xw = xw << OUT_BIT;
+  xw += res;
+  xn += OUT_BIT;
+  if (xn == 8)
+  {
+    myfile << (char)xw;
+    xw = 0;
+    xn = 0;
+    return 1;
+  }
+  return 0;
+}
 
-  // std::cout << atoi(argv[1]);
+int main(int argc, char *argv[])
+{
 
-  KSA(N_VALUE, N_VALUE);
+  if (argc != 5)
+  {
+    // std::cout << argv[1] << std::endl;
+    std::cout << "Not enough parameters" << std::endl;
+    return 0;
+  }
 
   std::ostringstream sstr;
-  std::ofstream myfile;
-  myfile.open (OUT_FILE, std::ios::binary);
 
-  long long i = 0;
+  N_VALUE = std::stol(argv[1]);
+  T_VALUE = std::stol(argv[2]);
+  D_VALUE = std::stol(argv[3]);
+  KEY_LEN = std::stoi(argv[4]);
 
-  for (unsigned long long iii = 1; i < OUT_SIZE/100000; iii++) {
-    myfile << (char) PRGA();
-    if (!(iii % 10000)) {
-      myfile.flush();
-      i++;
+  if (N_VALUE == 256)
+  {
+    OUT_BIT = 8;
   }
+  else
+  {
+    OUT_BIT = 4;
+  }
+
+  sstr << "test_N" << N_VALUE << "_T" << T_VALUE << "_D" << D_VALUE << "_K" << KEY_LEN;
+
+  OUT_FILE = sstr.str();
+
+  std::cout << OUT_FILE << std::endl;
+
+  KSA(N_VALUE, T_VALUE);
+
+  myfile.open(OUT_FILE, std::ios::binary);
+  // 100000
+  // 100000
+  for (long i = 0; i < 100000; i++)
+  {
+    for (long j = 0; j < 10000;)
+    {
+      j += awrite_bits(PRGA());
+    }
+    myfile.flush();
+  }
+
+
   myfile.close();
   return 0;
 }

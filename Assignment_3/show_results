@@ -1,0 +1,3 @@
+#!/bin/bash
+
+echo "Results:" > results ls result_* | while read line; do echo `cat $line | grep PASSED | wc -l`-$line; done | sort -r -g | cut -d "-" -f 2 | while read line; do echo $line; echo "Passed: "`cat $line | grep PASSED | wc -l` echo "Weak: "`cat $line | grep WEAK | wc -l` echo "Failed: "`cat $line | grep FAILED | wc -l` echo "-----------------------------------" done >> results
