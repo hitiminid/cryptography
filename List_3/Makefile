@@ -1,7 +1,15 @@
 
-STORE_PASS=`cat config | grep store_pass | cut -d ":" -f2 | cut -d " " -f2`
-KEY_PASS=`cat config | grep key_store_password | cut -d ":" -f2 | cut -d " " -f2`
-KEY_STORE_NAME=`cat config | grep key_store_name | cut -d ":" -f2 | cut -d " " -f2`
+# CONFIG_FILE = `data.json`
+
+KEY_PASS=`cat data.json       | grep store_key      | cut -d ":" -f2 | cut -d " " -f2 | sed 's/\"//g' | sed 's/\,//g'`
+STORE_PASS=`cat data.json     | grep store_password | cut -d ":" -f2 | cut -d " " -f2 | sed 's/\"//g' | sed 's/\,//g'`
+KEY_STORE_NAME=`cat data.json | grep store_name     | cut -d ":" -f2 | cut -d " " -f2 | sed 's/\"//g' | sed 's/\,//g'`
+
+
+# KEY_PASS = testtest
+# STORE_PASS = testtest
+# KEY_STORE_NAME = testtest
+
 
 all: key_gen
 

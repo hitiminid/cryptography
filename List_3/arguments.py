@@ -4,7 +4,6 @@ import argparse
 
 def get_arguments():
     args = parse_arguments()
-
     program_type = select_type(args.type)
     enc_mode = select_encryption_mode(args.enc_mode)
 
@@ -15,7 +14,7 @@ def get_arguments():
 
     with open('data.json', 'r') as f:
         json_object = json.load(f)
-        data['key_store_password'] = json_object['key_store_password']
+        data['key_store_password'] = json_object['store_password']
 
     return data
 
@@ -31,10 +30,9 @@ def parse_arguments():
     # KEYSTORE
     parser.add_argument('--key_store', type=str)
     parser.add_argument('--key_store_pass', type=str)
-    parser.add_argument('--key_id', type=str)
+    parser.add_argument('--key_id', type=str, required=True)
 
-    args = parser.parse_args()
-    return args
+    return parser.parse_args()
 
 
 def select_type(selected_type):
