@@ -24,9 +24,4 @@ def oracle_text(number_of_entities):
 
 
 def get_input(number_of_entities, message):
-    # inputs = []
     return [input(message) for _ in range(number_of_entities)]
-    # for _ in range(number_of_entities):
-    #     inputs.append(input(message))
-
-    # return inputs

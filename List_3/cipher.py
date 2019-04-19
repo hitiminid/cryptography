@@ -39,32 +39,35 @@ def encrypt_files(file_paths, encryption_mode, passphrase):
     for path in file_paths:
         open_ssl_commands = ['openssl', 'enc',
                              f'{encryption_mode}', '-nosalt',
-                             '-k', f'{passphrase}'
+                             '-k', f'{passphrase}',
+                             '-in', f'{path}',
+                             'out', f'{path}.enc'
                              ]
         subprocess.check_output(open_ssl_commands)
 
 
-def perform_decryption(ciphertexts, key_store_password):
-    ciphertexts = ciphertexts if isinstance(
-        ciphertexts, list) else [ciphertexts]
-    messages = []
+##### DECRYPTION #####
 
-    passphrase = key_store_password
+def perform_decryption(ciphertexts, encryption_mode, key_store_password):
+    # messages = messages if isinstance(messages, list) else [messages]
 
-    for c in ciphertexts:
-        echo_message = ['echo', '-n', f"{c}"]
+    # if is_text_encryption:
+    #     encrypt_text(messages, encryption_mode, key_store_password)
+    # else:
+    decrypt_files(ciphertexts, encryption_mode, key_store_password)
+
+
+def decrypt_text():
+    raise NotImplementedError
+
+
+def decrypt_files(file_paths, encryption_mode, passphrase):
+
+    for path in file_paths:
         open_ssl_commands = ['openssl', 'enc',
-                             '-aes-256-cbc',  '-nosalt',
+                             f'{encryption_mode}', '-nosalt',
                              '-k', f'{passphrase}',
+                             '-in', f'{path}',
+                             '-out', f'{path}.dec'
                              ]
-
-        ps = subprocess.Popen(echo_message, stdout=subprocess.PIPE)
-        msg = subprocess.check_output(
-            open_ssl_commands, stdin=ps.stdout)
-        # ciphertext = ciphertext.decode('ascii', 'ignore')
-        messages.append(msg)
-
-    for m, c in zip(messages, ciphertexts):
-        print(f'm:{m} c:{c}')
-
-    return ciphertexts
+        output = subprocess.check_output(open_ssl_commands)
