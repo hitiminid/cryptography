@@ -1,0 +1,3 @@
+test_pass: abc
+store_pass: def
+key_store_name: dupa.pkcs12
