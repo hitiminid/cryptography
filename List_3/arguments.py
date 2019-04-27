@@ -1,3 +1,4 @@
+import pdb
 import json
 import argparse
 
@@ -31,7 +32,6 @@ def parse_arguments():
 
     # KEYSTORE
     parser.add_argument('--key_store', type=str)
-    # parser.add_argument('--key_store_pass', type=str)
     parser.add_argument('--key_id', type=str)
 
     return parser.parse_args()
@@ -51,7 +51,7 @@ def select_encryption_mode(mode_name):
         'ECB': 'aes-192-ecb'
     }
 
-    default = 'CBC'
+    default = 'aes-256-cbc'
     return encryption_types.get(mode_name, default)
 
 
@@ -66,7 +66,3 @@ def get_value(choice, options, default, exception_msg='Error during argument par
 
 def get_values(arguments):
     return tuple(getattr(arguments, attr_name) for attr_name in ('mode', 'key_store', 'key_id'))
-    # mode = arguments.mode
-    # key_store = arguments.key_store
-    # key_id = arguments.key_id
-    # return mode, key_store, key_id
