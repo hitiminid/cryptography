@@ -1,0 +1,41 @@
+body {
+    /*background: url("graphics/graphic.jpg") no-repeat;*/
+}
+
+.centered-div {
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid #800076;*/
+    padding: 10px;
+}
+
+
+.width {
+    width: 75%;
+}
+
+
+.default-button {
+    width: 150px;
+    height: 80px;
+
+    border: solid 1px #4f4f4f;
+
+}
+
+.default-button:hover {
+    background-color: #4f4f4f;
+}
+
+
+.graphics {
+    width: 1200px;
+    height: 720px;
+    background: url("graphics/graphic.jpg") no-repeat;
+}
+
+.construction {
+    width: 1200px;
+    height: 720px;
+    background: url("graphics/construction.gif") no-repeat;
+}

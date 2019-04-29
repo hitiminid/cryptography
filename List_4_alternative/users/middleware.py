@@ -6,6 +6,7 @@ from users.models import YubiKeyDevice
 def yubikey_verification(get_response):
 
     def middleware(request):
+
         if not request.user.is_authenticated:
             return get_response(request)
 
