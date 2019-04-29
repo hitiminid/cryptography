@@ -6,7 +6,6 @@ import cipher
 
 def run(keystore_data):
     # text_or_file = input('[T]ext or [F]iles? ')
-
     # if text_or_file == 'T':
     challenge_text(keystore_data)
     # else:
