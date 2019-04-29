@@ -1,0 +1,26 @@
+{% load static %}
+
+
+<h2>Verify YubiKey</h2>
+<form id="u2f-form" method="post">
+    {% csrf_token %}
+    <input name="response" type="hidden"/>
+</form>
+
+<script src="{% static 'u2f-api.js' %}"></script>
+
+<script type="application/json" id="django_u2f_request">
+    {{challenge|safe}}
+</script>
+
+<script>
+var requestElem = document.getElementById('django_u2f_request');
+if (requestElem) {
+  request = JSON.parse(requestElem.textContent);
+  u2f.sign(request.appId, request.challenge, request.registeredKeys, function(resp) {
+    var form = document.getElementById('u2f-form');
+    form.response.value = JSON.stringify(resp);
+    form.submit();
+  });
+}
+</script>
