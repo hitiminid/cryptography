@@ -1,10 +1,17 @@
-<!-- templates/registration/login.html -->
+{#{% extends 'base.html' %}#}
+{% load static %}
 
-<h2>Login</h2>
-<form method="post">
-  {% csrf_token %}
-  {{ form.as_p }}
-{#    {{ form.username.label }}#}
-{#    {{ form.username }}#}
-  <button type="submit">Login</button>
-</form>
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+
+
+<div class="centered-div">
+    <div class="centered-div">
+        <h2>Login</h2>
+
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary btn-md">Login</button>
+        </form>
+    </div>
+</div>
