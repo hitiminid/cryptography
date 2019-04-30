@@ -1,7 +1,6 @@
 {
-  "key_store_path": "/home/pietrek/UCZELNIA/MGR/cryptography/List_3/key_store",
-  "store_password": "test1234",
-  "store_key": "testpass",
-  "store_name": "dupa.pkcs12",
-  "test_pass": "abc"
+  "store_password": "password",
+  "store_key": "password",
+  "store_name": "keystore.jceks",
+  "store_alias": "encryption_key"
 }

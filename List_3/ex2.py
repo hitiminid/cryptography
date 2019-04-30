@@ -9,137 +9,81 @@ from keystore_data import KeyStoreData
 
 def main():
 
-    key_identifier = 'secretkey1'
-    path = 'keystore.jceks'
-    password = 'test1234'
-    key = key_store.get_password(path,
-                                 password,
-                                 key_identifier)
-
-    iv, iv_plus_one = generate_ivs()
-    mode = '-aes-256-cbc'
-
-    iv_0 = iv
-    m_0 = iv_0
-    c_0 = run_encryption(m_0, mode, iv_0, key)
-
-    # Challenge
-    iv_1 = iv_plus_one
-    m_1 = iv_plus_one
-
-    m_2 = bytes(random.getrandbits(8) for _ in range(16))
-
-    c_1 = run_encryption(m_1, mode, iv_1, key)
-
-    assert c_0 == c_1
+    key_identifier = "encryption_key"
+    path = "keystore.jceks"
+    password = "password"
+    key = key_store.get_password(path, password, key_identifier)
+    mode = "-aes-256-cbc"
+    perform_challenge(key, mode)
 
 
-def generate_ivs():
-    base = ''.join([str(random.randint(0, 1)) for _ in range(127)])
-    iv = base + '0'
-    iv_plus_one = base + '1'
+def perform_challenge(key, mode):
+    # QUERY
+    # 1)
+    # send random message and get iv and it's ciphertext
+    base = generate_iv_base()
+    iv = hex(int(base + "00", 2))[2:]
 
-    iv = hex(int(iv, 2))[2:]
-    iv_plus_one = hex(int(iv_plus_one, 2))[2:]
+    # 2)
+    # send IV+1 in order to receive E(IV+1 xor IV+1) = E(000...)
+    iv_plus_one = hex(int(base + "01", 2))[2:]
 
-    return iv, iv_plus_one
+    query_m = iv_plus_one
+    query_iv = iv_plus_one
 
+    query_c = run_encryption(query_m, query_iv, mode, key)
 
-def run_encryption(message, encryption_mode, iv, key):
-    open_ssl_commands = ['openssl', 'enc', '-e',
-                         f'{encryption_mode}', '-e',
-                         '-K', f'{key}',
-                         '-iv', f'{iv}', '-nopad'
-                         ]
-    # print(open_ssl_commands)
-    ciphertext = subprocess.check_output(open_ssl_commands,
-                                         input=bytes.fromhex(message))
-    return ciphertext
+    # CHALLENGE
+    # send m1 = IV+2 and m2 = some random message
 
+    iv_plus_two = hex(int(base + "10", 2))[2:]
+    challenge_iv = iv_plus_two
 
-def cpa(keystore_data, iv_plus_one, key, old_ciphertext):
-    # m0 = ''.join(random.choices(string.ascii_letters + string.digits, k=128))
+    challenge_m_1 = iv_plus_two
+    challenge_m_2 = uuid.uuid4().hex
 
-    m0 = bytes(random.getrandbits(8) for _ in range(16))
-    m1 = bytes.fromhex(iv_plus_one)
+    selected_message = select_message()
 
-    b = random.randint(0, 1)
-    m = m1 if b == 1 else m0
+    m = challenge_m_1 if selected_message == 1 else challenge_m_2
 
-    ciphertext = run_encryption(m, keystore_data.encryption_mode,
-                                iv_plus_one, key)
+    challenge_c = run_encryption(m, challenge_iv, mode, key)
 
-    if ciphertext == old_ciphertext:
-        print('b = 1')
+    print(f"Random selected message {selected_message+1} to encrypt")
+
+    if challenge_c == query_c:
+        print("It's IV")
     else:
-        print('b = 0')
+        print("It's random message")
 
 
-if __name__ == '__main__':
-    main()
-
-"""
-
-import random
-import string
-import uuid
-import pdb
-import subprocess
+def select_message():
+    return random.randint(0, 1)
 
 
-def main():
-    key = 'f5746ab5a66e86da6cbf79c9878bff04'
-    iv, iv_plus_one = generate_ivs()
-    mode = '-aes-128-cbc'
-
-    iv_0 = iv
-    m_0 = iv_0
-    c_0 = run_encryption(m_0, mode, iv_0, key)
-
-    m_1 = iv_plus_one
-    iv_1 = iv_plus_one
-    c_1 = run_encryption(m_1, mode, iv_1, key)
-
-    assert c_0 == c_1
+def generate_iv_base():
+    base = "".join([str(random.randint(0, 1)) for _ in range(126)])
+    iv = base + "00"
+    return base
 
 
-def cpa(enc_mode, iv_plus_one, key, old_ciphertext):
-    m0 = ''.join(random.choices(string.ascii_letters + string.digits, k=32))
-    m1 = iv_plus_one
-
-    b = random.randint(0, 1)
-    m = m1 if b == 1 else m0
-    print(f'b should equal {b}')
-    ciphertext = run_encryption(m, enc_mode,
-                                iv_plus_one, key)
-    if ciphertext == old_ciphertext:
-        print('b = 1')
-    else:
-        print('b = 0')
-
-
-def generate_ivs():
-    base = ''.join([str(random.randint(0, 1)) for _ in range(127)])
-    iv = base + '0'
-    iv_plus_one = base + '1'
-
-    iv = hex(int(iv, 2))[2:]
-    iv_plus_one = hex(int(iv_plus_one, 2))[2:]
-
-    return iv, iv_plus_one
-
-
-def run_encryption(message, encryption_mode, iv, key):
-    open_ssl_commands = ['openssl', 'enc', '-e',
-                         f'{encryption_mode}', '-e',
-                         '-K', f'{key}',
-                         '-iv', f'{iv}', '-nopad'
-                         ]
+def run_encryption(message, iv, encryption_mode, key):
+    open_ssl_commands = [
+        "openssl",
+        "enc",
+        "-e",
+        f"{encryption_mode}",
+        "-e",
+        "-K",
+        f"{key}",
+        "-iv",
+        f"{iv}",
+        "-nopad",
+    ]
     ciphertext = subprocess.check_output(
-      open_ssl_commands, input=bytes.fromhex(message))
+        open_ssl_commands, input=bytes.fromhex(message)
+    )
     return ciphertext
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
-"""
