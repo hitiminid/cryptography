@@ -1,7 +1,13 @@
 {% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
 
 
-<h2>Add YubiKey</h2>
+<div class="centered-div">
+    <div class="centered-div">
+        <h2>You can now add your YubiKey</h2>
+    </div>
+</div>
+
 <form id="u2f-form" method="post">
     {% csrf_token %}
     <input name="response" type="hidden"/>

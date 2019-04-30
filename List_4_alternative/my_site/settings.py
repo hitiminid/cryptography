@@ -127,25 +127,51 @@ STATICFILES_DIRS = (
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
 
-# EMAIL
-# EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
-# EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")
-EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
-
-# EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
-
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'blurusout@gmail.com'
-EMAIL_HOST_PASSWORD = 'shreknando'
-
-
-
-
 PASSWORD_HASHERS = [
     'django.contrib.auth.hashers.Argon2PasswordHasher',
     'django.contrib.auth.hashers.PBKDF2PasswordHasher',
     'django.contrib.auth.hashers.PBKDF2SHA1PasswordHasher',
     'django.contrib.auth.hashers.BCryptSHA256PasswordHasher',
 ]
+
+# EMAIL
+# EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
+# EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_emails")
+
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+# EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'blurusout@gmail.com'
+
+############################## VERY SECRET STUFF BELOW ##############################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EMAIL_HOST_PASSWORD = 'shreknando'
+
+
+
+

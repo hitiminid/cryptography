@@ -29,7 +29,6 @@ class YubiKeyRegisterView(View):
         request.session['challenge'] = challenge
         context = {'challenge': json.dumps(challenge)}
         return render(request, 'add_yubikey_device.html', context)
-        # return redirect('home')
 
     def post(self, request, *args, **kwargs):
         u2f_response = request.POST['response']
@@ -40,7 +39,7 @@ class YubiKeyRegisterView(View):
             'public_key': device['publicKey'],
             'key_handle': device['keyHandle'],
         })
-        messages.add_message(request, messages.INFO, 'YubiKey registered!')
+        messages.add_message(request, messages.INFO, 'Your YubiKey has been registered!')
         del request.session['challenge']
 
         request.session['yubikey_verified'] = True
@@ -54,16 +53,17 @@ class YubiKeyLoginView(View):
         device = YubiKeyDevice.objects.filter(user=request.user).first()
 
         if not device:
-            # context = {'has_yubikey': False}
             request.session['has_yubikey'] = False
             return redirect('home')
 
-        challenge = u2f.begin_authentication(device.app_id, [{
+        challenge_data = [{
             'appId': device.app_id,
             'keyHandle': device.key_handle,
             'publicKey': device.public_key,
             'version': 'U2F_V2'
-        }])
+        }]
+
+        challenge = u2f.begin_authentication(device.app_id, challenge_data)
         request.session['challenge'] = challenge
         context = {'challenge': json.dumps(challenge)}
 

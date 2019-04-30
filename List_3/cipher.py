@@ -35,7 +35,10 @@ def encrypt_text(plaintexts: list, encryption_mode: str, key: str):
     return ciphertexts
 
 
-def encrypt_files(file_paths: list, encryption_mode: str, key: str, challenge: bool):
+def encrypt_files(
+    file_paths: list, encryption_mode: str, key: str, challenge: bool = False
+):
+    encrypted_paths = []
 
     if challenge:
         for path in file_paths:
@@ -48,26 +51,31 @@ def encrypt_files(file_paths: list, encryption_mode: str, key: str, challenge: b
                 f"{key}",
                 "-in",
                 f"{path}",
-                "out",
+                "-out",
                 f"challenge.enc",
             ]
             subprocess.check_output(open_ssl_commands)
 
     else:
         for path in file_paths:
+
+            enc_path = f"{path}.enc"
+            encrypted_paths.append(enc_path)
+
             open_ssl_commands = [
                 "openssl",
                 "enc",
-                f"{encryption_mode}",
+                f"-{encryption_mode}",
                 "-nosalt",
                 "-k",
                 f"{key}",
                 "-in",
                 f"{path}",
-                "out",
-                f"{path}.enc",
+                "-out",
+                enc_path,
             ]
             subprocess.check_output(open_ssl_commands)
+    return encrypted_paths
 
 
 ##### DECRYPTION #####
