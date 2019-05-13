@@ -12,7 +12,6 @@ def run(keystore_data):
         oracle_text(number_of_entities, keystore_data)
 
 
-# TODO:
 def oracle_files(number_of_entities, keystore_data):
     message = "File path: \n"
     file_paths = get_input(number_of_entities, message)

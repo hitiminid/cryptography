@@ -1,6 +1,7 @@
 import subprocess
 import key_store
 import pdb
+import os
 
 
 def perform_encryption(messages: list, keystore_data, is_text_encryption: bool):
@@ -15,20 +16,23 @@ def perform_encryption(messages: list, keystore_data, is_text_encryption: bool):
         return encrypt_files(messages, keystore_data.encryption_mode, key)
 
 
+# TODO: add -iv from devrandom
+# NEVER USE URANDOM
 def encrypt_text(plaintexts: list, encryption_mode: str, key: str):
 
     ciphertexts = []
 
     for message in plaintexts:
 
-        open_ssl_commands = [
-            "openssl",
-            "enc",
-            f"-{encryption_mode}",
-            "-nosalt",
-            "-k",
-            f"{key}",
-        ]
+        open_ssl_commands = ["openssl", "enc", f"-{encryption_mode}", "-nosalt"]
+
+        if "cbc" in encryption_mode:
+            with open("/dev/random", "rb") as f:
+                iv = f.read(16).hex()
+            open_ssl_commands += ["-K", f"{key}", "-iv", f"{iv}"]
+        else:
+            open_ssl_commands += ["-k", f"{key}"]
+
         ciphertext = subprocess.check_output(open_ssl_commands, input=message)
         ciphertexts.append(ciphertext)
 
@@ -49,6 +53,8 @@ def encrypt_files(
                 "-nosalt",
                 "-k",
                 f"{key}",
+                "-iv",
+                f"{os.urandom(16).hex()}",
                 "-in",
                 f"{path}",
                 "-out",
@@ -69,6 +75,8 @@ def encrypt_files(
                 "-nosalt",
                 "-k",
                 f"{key}",
+                "-iv",
+                f"{os.urandom(16).hex()}",
                 "-in",
                 f"{path}",
                 "-out",
@@ -79,8 +87,6 @@ def encrypt_files(
 
 
 ##### DECRYPTION #####
-
-
 def perform_decryption(
     ciphertexts: list, keystore_data, encryption_mode: str, is_text_decryption: bool
 ):

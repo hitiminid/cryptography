@@ -1,3 +1,4 @@
+import os
 import random
 import string
 import uuid
@@ -62,6 +63,7 @@ def select_message():
 
 def generate_iv_base():
     base = "".join([str(random.randint(0, 1)) for _ in range(126)])
+    # os.urandom(15).hex()
     iv = base + "00"
     return base
 
@@ -72,13 +74,13 @@ def run_encryption(message, iv, encryption_mode, key):
         "enc",
         "-e",
         f"{encryption_mode}",
-        "-e",
         "-K",
         f"{key}",
         "-iv",
         f"{iv}",
         "-nopad",
     ]
+    # pdb.set_trace()
     ciphertext = subprocess.check_output(
         open_ssl_commands, input=bytes.fromhex(message)
     )
