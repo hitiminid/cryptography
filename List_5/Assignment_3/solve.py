@@ -1,24 +1,27 @@
-import generator
 from Crypto.Cipher import AES
-import utils
 import pdb
 
+import generator
+import utils
 
-def solve_puzzle(puzzle, C, N, CONSTANT):
-    # key length, 16 bytes
-    number_of_keys = C * N
-    c = None
 
-    for i in range(number_of_keys):
+class Solver:
 
-        # generate key
-        key = i.to_bytes(16, byteorder='big')
+    @utils.measure_time
+    def solve_puzzle(self, puzzle, C, N, CONSTANT):
 
-        # decrypt message
-        aes = AES.new(key, AES.MODE_CBC, CONSTANT)
-        plaintext = aes.decrypt(puzzle)
+        # key length, 16 bytes
+        number_of_keys = C * N
+        c = None
 
-        if plaintext[-16:] == CONSTANT:
-            return plaintext
+        for i in range(number_of_keys):
 
-    # pdb.set_trace()
+            # generate key
+            key = i.to_bytes(16, byteorder="big")
+
+            # decrypt message
+            aes = AES.new(key, AES.MODE_CBC, CONSTANT)
+            plaintext = aes.decrypt(puzzle)
+
+            if plaintext[-16:] == CONSTANT:
+                return plaintext
