@@ -1,15 +1,17 @@
 import pdb
-import math 
+import math
 import secrets
 import functools
 # import dataclass
+import random
+import string
 
 import utils
 
 
-secretGenerator = secrets.SystemRandom()		
+secretGenerator = secrets.SystemRandom()
 
-def generate_private_key(n): 
+def generate_private_key(n):
 	sequence = generate_sequence(n)
 	modulo = generate_modulo(sequence)
 	r = generate_r(modulo)
@@ -30,7 +32,7 @@ def generate_modulo(sequence):
 	# sequence_sum = functools.reduce(lambda acc, y : acc + y, sequence)
 	sequence_sum = sum(sequence)
 
-	lower_bound = sequence_sum + 1 
+	lower_bound = sequence_sum + 1
 	upper_bound = 2 ** (2 * (len(sequence) + 1)) - 1
 	modulo = secretGenerator.randint(lower_bound, upper_bound)
 
@@ -40,17 +42,17 @@ def generate_r(modulo):
 	r = secretGenerator.randint(2, modulo-2)
 
 	while math.gcd(r, modulo) != 1:
-		r = secretGenerator.randint(2, modulo-2)		
+		r = secretGenerator.randint(2, modulo-2)
 
-	return r 
+	return r
 
 
 def generate_public_key(private_key):
 	sequence = private_key[0]
 	modulo = private_key[1]
 	r = private_key[2]
-	
-	public_key = [(element * r) % modulo for element in sequence]	
+
+	public_key = [(element * r) % modulo for element in sequence]
 	return public_key
 
 
@@ -61,7 +63,7 @@ def encrypt(message, public_key):
 
 
 def decrypt(ciphertext, private_key):
-	
+
 	sequence, modulo, r = private_key[0], private_key[1], private_key[2]
 
 	inverse = utils.modinv(r, modulo)
@@ -73,10 +75,10 @@ def decrypt(ciphertext, private_key):
 
 
 	for i in reversed_sequence:
-		if cs >= i: 
+		if cs >= i:
 			message = '1' + message
 			cs -= i
-		else: 
+		else:
 			message = '0' + message
 	print(message)
 
@@ -90,15 +92,25 @@ def decrypt(ciphertext, private_key):
 
 	return msg
 
-def main(): 
-	while True:
-		private_key = generate_private_key(24)
+def main():
+	# while True:
+
+	for _ in range(5):
+		msg_len = random.randint(1, 5)
+		key_len = msg_len * 8
+
+		# private_key = generate_private_key(24)
+		private_key = generate_private_key(key_len)
 		public_key = generate_public_key(private_key)
 
-		msg = 'abc'
+		# msg = 'abc'
+		random_msg = [random.choice(string.ascii_letters) for _ in range(msg_len)]
+		msg = ''.join(random_msg)
+		print(f'Message: {msg}')
+
 		enc = encrypt(msg, public_key)
 		dec = decrypt(enc, private_key)
-		print(f'enc = {enc}, dec = {dec}')
+		print(f'enc = {enc}, dec = {dec}\n')
 		assert msg == dec
 
 
