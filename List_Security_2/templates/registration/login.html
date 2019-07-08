@@ -1,0 +1,17 @@
+{#{% extends 'base.html' %}#}
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+
+
+<div class="centered-div">
+    <div class="centered-div">
+        <h2>Login</h2>
+
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-primary btn-md">Login</button>
+        </form>
+    </div>
+</div>

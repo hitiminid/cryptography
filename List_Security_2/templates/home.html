@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    {% if user.is_authenticated %}
+        <div class="centered-div">
+            <h1>Hi {{ user.username }}!</h1>
+            <h2>How are You doing?</h2>
+            <div class="centered-div">
+                <div class="construction"></div>
+            </div>
+        </div>
+    {% else %}
+        <div class="centered-div">
+            <div class="graphics"></div>
+        </div>
+    {% endif %}
+{% endblock %}

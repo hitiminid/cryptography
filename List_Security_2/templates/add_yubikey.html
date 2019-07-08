@@ -1,0 +1,38 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+
+
+<div class="centered-div">
+    <div class="centered-div">
+        <h2>You can now add your YubiKey</h2>
+    </div>
+</div>
+
+<form id="u2f_reg_form" method="post">
+    {% csrf_token %}
+    <input name="response" type="hidden"/>
+</form>
+
+<script src="{% static 'u2f-api.js' %}"></script>
+
+<script type="application/json" id="u2f_reg">
+    {{ challenge|safe }}
+</script>
+
+<script>
+    var reg = document.getElementById('u2f_reg');
+    var request = JSON.parse(reg.textContent);
+    console.log(request);
+    var appId = request.appId;
+    var registerRequests = request.registerRequests;
+    var registeredKeys = request.registeredKeys;
+
+    var callback = function (resp) {
+        var form = document.getElementById('u2f_reg_form');
+        var data = JSON.stringify(resp);
+        form.response.value = data;
+        form.submit();
+    };
+
+    u2f.register(appId, registerRequests, registeredKeys, callback);
+</script>
