@@ -1,0 +1,491 @@
+Info:Lattice Sieving: Found 37281 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1120000-1130000.htrxn_m1.gz', total is now 570105/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1120000-1130000 as ok (16.2% => ETA Mon May 27 01:00:52 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1150000-1160000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1250000-1260000 to database
+Info:Lattice Sieving: Found 34048 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1130000-1140000._9_gogja.gz', total is now 604153/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1130000-1140000 as ok (17.1% => ETA Mon May 27 00:58:46 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1160000-1170000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1260000-1270000 to database
+Info:Lattice Sieving: Found 34944 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1140000-1150000.f1mgcfam.gz', total is now 639097/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1140000-1150000 as ok (18.1% => ETA Mon May 27 00:59:23 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1170000-1180000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1270000-1280000 to database
+Info:Lattice Sieving: Found 36251 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1150000-1160000.fqz6omkz.gz', total is now 675348/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1150000-1160000 as ok (19.2% => ETA Mon May 27 00:56:58 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1180000-1190000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1280000-1290000 to database
+Info:Lattice Sieving: Found 37367 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1160000-1170000.h7lrcsvm.gz', total is now 712715/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1160000-1170000 as ok (20.2% => ETA Mon May 27 00:57:46 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1190000-1200000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1290000-1300000 to database
+Info:Lattice Sieving: Found 35308 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1170000-1180000.n3va70d1.gz', total is now 748023/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1170000-1180000 as ok (21.2% => ETA Mon May 27 00:55:12 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1200000-1210000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1300000-1310000 to database
+Info:Lattice Sieving: Found 38838 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1180000-1190000.3u6lt4u6.gz', total is now 786861/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1180000-1190000 as ok (22.3% => ETA Mon May 27 00:57:50 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1210000-1220000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1310000-1320000 to database
+Info:Lattice Sieving: Found 35779 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1190000-1200000.qght1i9g.gz', total is now 822640/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1190000-1200000 as ok (23.3% => ETA Mon May 27 00:54:46 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1220000-1230000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1320000-1330000 to database
+Info:Lattice Sieving: Found 34709 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1200000-1210000.1qy23it2.gz', total is now 857349/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1200000-1210000 as ok (24.3% => ETA Mon May 27 00:56:51 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1230000-1240000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1330000-1340000 to database
+Info:Lattice Sieving: Found 35573 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1210000-1220000.szjns2nt.gz', total is now 892922/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1210000-1220000 as ok (25.3% => ETA Mon May 27 00:54:10 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1240000-1250000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1340000-1350000 to database
+Info:Lattice Sieving: Found 36359 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1220000-1230000.qs5ocee1.gz', total is now 929281/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1220000-1230000 as ok (26.4% => ETA Mon May 27 00:56:27 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1250000-1260000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1350000-1360000 to database
+Info:Lattice Sieving: Found 34223 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1230000-1240000.btyqr7fv.gz', total is now 963504/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1230000-1240000 as ok (27.3% => ETA Mon May 27 00:54:14 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1260000-1270000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1360000-1370000 to database
+Info:Lattice Sieving: Found 34406 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1240000-1250000.kcpkoo10.gz', total is now 997910/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1240000-1250000 as ok (28.3% => ETA Mon May 27 00:57:13 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1270000-1280000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1370000-1380000 to database
+Info:Lattice Sieving: Found 34269 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1250000-1260000.1_5w818r.gz', total is now 1032179/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1250000-1260000 as ok (29.3% => ETA Mon May 27 00:54:50 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1280000-1290000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1380000-1390000 to database
+Info:Lattice Sieving: Found 36345 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1260000-1270000.kd0iobgj.gz', total is now 1068524/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1260000-1270000 as ok (30.3% => ETA Mon May 27 00:57:04 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1290000-1300000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1390000-1400000 to database
+Info:Lattice Sieving: Found 34817 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1270000-1280000.kjqb4j7t.gz', total is now 1103341/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1270000-1280000 as ok (31.3% => ETA Mon May 27 00:54:17 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1300000-1310000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1400000-1410000 to database
+Info:Lattice Sieving: Found 33958 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1280000-1290000.xn21noa1.gz', total is now 1137299/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1280000-1290000 as ok (32.3% => ETA Mon May 27 00:56:19 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1310000-1320000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1410000-1420000 to database
+Info:Lattice Sieving: Found 33725 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1290000-1300000.v2pzqwof.gz', total is now 1171024/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1290000-1300000 as ok (33.2% => ETA Mon May 27 00:53:47 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1320000-1330000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1420000-1430000 to database
+Info:Lattice Sieving: Found 33007 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1300000-1310000.rvxj7r89.gz', total is now 1204031/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1300000-1310000 as ok (34.2% => ETA Mon May 27 00:55:45 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1330000-1340000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1430000-1440000 to database
+Info:Lattice Sieving: Found 35748 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1310000-1320000.00y28pvd.gz', total is now 1239779/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1310000-1320000 as ok (35.2% => ETA Mon May 27 00:54:06 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1340000-1350000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1440000-1450000 to database
+Info:Lattice Sieving: Found 34599 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1320000-1330000.1jl6hsgt.gz', total is now 1274378/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1320000-1330000 as ok (36.2% => ETA Mon May 27 00:55:53 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1350000-1360000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1450000-1460000 to database
+Info:Lattice Sieving: Found 32899 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1330000-1340000.zi_3np0u.gz', total is now 1307277/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1330000-1340000 as ok (37.1% => ETA Mon May 27 00:54:11 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1360000-1370000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1460000-1470000 to database
+Info:Lattice Sieving: Found 31729 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1340000-1350000._2n81zuo.gz', total is now 1339006/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1340000-1350000 as ok (38.0% => ETA Mon May 27 00:55:40 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1370000-1380000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1470000-1480000 to database
+Info:Lattice Sieving: Found 34851 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1350000-1360000.2ss9p71d.gz', total is now 1373857/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1350000-1360000 as ok (39.0% => ETA Mon May 27 00:54:13 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1380000-1390000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1480000-1490000 to database
+Info:Lattice Sieving: Found 33250 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1360000-1370000.zoqa89ga.gz', total is now 1407107/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1360000-1370000 as ok (39.9% => ETA Mon May 27 00:55:13 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1390000-1400000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1490000-1500000 to database
+Info:Lattice Sieving: Found 34418 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1370000-1380000.mramuq21.gz', total is now 1441525/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1370000-1380000 as ok (40.9% => ETA Mon May 27 00:54:01 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1400000-1410000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1500000-1510000 to database
+Info:Lattice Sieving: Found 33756 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1380000-1390000.2y3a9ayj.gz', total is now 1475281/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1380000-1390000 as ok (41.9% => ETA Mon May 27 00:54:54 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1410000-1420000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1510000-1520000 to database
+Info:Lattice Sieving: Found 34434 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1390000-1400000.c5pv2l8x.gz', total is now 1509715/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1390000-1400000 as ok (42.8% => ETA Mon May 27 00:53:50 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1420000-1430000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1520000-1530000 to database
+Info:Lattice Sieving: Found 31944 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1400000-1410000.5yuuijk4.gz', total is now 1541659/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1400000-1410000 as ok (43.7% => ETA Mon May 27 00:54:22 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1430000-1440000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1530000-1540000 to database
+Info:Lattice Sieving: Found 32009 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1410000-1420000.6ugr95ik.gz', total is now 1573668/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1410000-1420000 as ok (44.7% => ETA Mon May 27 00:53:38 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1440000-1450000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1540000-1550000 to database
+Info:Lattice Sieving: Found 34973 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1420000-1430000.6ldpndvf.gz', total is now 1608641/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1420000-1430000 as ok (45.6% => ETA Mon May 27 00:54:21 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1450000-1460000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1550000-1560000 to database
+Info:Lattice Sieving: Found 35215 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1430000-1440000.f42a5z9l.gz', total is now 1643856/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1430000-1440000 as ok (46.6% => ETA Mon May 27 00:53:26 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1460000-1470000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1560000-1570000 to database
+Info:Lattice Sieving: Found 32896 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1440000-1450000.dg778x09.gz', total is now 1676752/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1440000-1450000 as ok (47.6% => ETA Mon May 27 00:53:58 2019)
+Info:Lattice Sieving: Found 31918 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1450000-1460000.4awtszue.gz', total is now 1708670/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1450000-1460000 as ok (48.5% => ETA Mon May 27 00:53:12 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1470000-1480000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1570000-1580000 to database
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1480000-1490000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1580000-1590000 to database
+Info:Lattice Sieving: Found 31564 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1460000-1470000.lkn4idk6.gz', total is now 1740234/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1460000-1470000 as ok (49.4% => ETA Mon May 27 00:53:47 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1490000-1500000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1590000-1600000 to database
+Info:Lattice Sieving: Found 31797 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1470000-1480000.fj7zo2g4.gz', total is now 1772031/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1470000-1480000 as ok (50.3% => ETA Mon May 27 00:53:07 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1500000-1510000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1600000-1610000 to database
+Info:Lattice Sieving: Found 32817 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1480000-1490000.1vba8eas.gz', total is now 1804848/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1480000-1490000 as ok (51.2% => ETA Mon May 27 00:53:40 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1510000-1520000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1610000-1620000 to database
+Info:Lattice Sieving: Found 32498 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1490000-1500000.erqfnn3a.gz', total is now 1837346/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1490000-1500000 as ok (52.1% => ETA Mon May 27 00:52:57 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1520000-1530000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1620000-1630000 to database
+Info:Lattice Sieving: Found 32358 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1500000-1510000.na3dm9b4.gz', total is now 1869704/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1500000-1510000 as ok (53.1% => ETA Mon May 27 00:53:34 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1530000-1540000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1630000-1640000 to database
+Info:Lattice Sieving: Found 30356 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1510000-1520000.1l540id1.gz', total is now 1900060/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1510000-1520000 as ok (53.9% => ETA Mon May 27 00:52:44 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1540000-1550000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1640000-1650000 to database
+Info:Lattice Sieving: Found 30913 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1520000-1530000.71ag2vvd.gz', total is now 1930973/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1520000-1530000 as ok (54.8% => ETA Mon May 27 00:53:31 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1550000-1560000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1650000-1660000 to database
+Info:Lattice Sieving: Found 30575 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1530000-1540000.wyz9k148.gz', total is now 1961548/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1530000-1540000 as ok (55.7% => ETA Mon May 27 00:52:52 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1560000-1570000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1660000-1670000 to database
+Info:Lattice Sieving: Found 30952 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1540000-1550000.gd2e_n9h.gz', total is now 1992500/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1540000-1550000 as ok (56.5% => ETA Mon May 27 00:53:35 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1570000-1580000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1670000-1680000 to database
+Info:Lattice Sieving: Found 33109 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1550000-1560000.ch3kgo3d.gz', total is now 2025609/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1550000-1560000 as ok (57.5% => ETA Mon May 27 00:52:59 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1580000-1590000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1680000-1690000 to database
+Info:Lattice Sieving: Found 31748 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1560000-1570000.5vkn8q7p.gz', total is now 2057357/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1560000-1570000 as ok (58.4% => ETA Mon May 27 00:53:46 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1590000-1600000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1690000-1700000 to database
+Info:Lattice Sieving: Found 30431 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1570000-1580000.d5omp4_j.gz', total is now 2087788/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1570000-1580000 as ok (59.2% => ETA Mon May 27 00:53:17 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1600000-1610000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1700000-1710000 to database
+Info:Lattice Sieving: Found 30621 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1580000-1590000.c0s4v5lv.gz', total is now 2118409/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1580000-1590000 as ok (60.1% => ETA Mon May 27 00:53:59 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1610000-1620000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1710000-1720000 to database
+Info:Lattice Sieving: Found 31187 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1590000-1600000.c8j0soo2.gz', total is now 2149596/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1590000-1600000 as ok (61.0% => ETA Mon May 27 00:53:25 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1620000-1630000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1720000-1730000 to database
+Info:Lattice Sieving: Found 33059 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1600000-1610000.nmw602lb.gz', total is now 2182655/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1600000-1610000 as ok (61.9% => ETA Mon May 27 00:54:02 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1630000-1640000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1730000-1740000 to database
+Info:Lattice Sieving: Found 30295 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1610000-1620000.24628xc_.gz', total is now 2212950/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1610000-1620000 as ok (62.8% => ETA Mon May 27 00:53:18 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1640000-1650000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1740000-1750000 to database
+Info:Lattice Sieving: Found 30729 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1620000-1630000.g461ss_m.gz', total is now 2243679/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1620000-1630000 as ok (63.7% => ETA Mon May 27 00:54:08 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1650000-1660000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1750000-1760000 to database
+Info:Lattice Sieving: Found 31893 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1630000-1640000.kv38t6_u.gz', total is now 2275572/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1630000-1640000 as ok (64.6% => ETA Mon May 27 00:53:27 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1660000-1670000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1760000-1770000 to database
+Info:Lattice Sieving: Found 31244 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1640000-1650000.30r_mfku.gz', total is now 2306816/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1640000-1650000 as ok (65.5% => ETA Mon May 27 00:54:06 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1670000-1680000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1770000-1780000 to database
+Info:Lattice Sieving: Found 31801 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1650000-1660000.oe3imuz6.gz', total is now 2338617/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1650000-1660000 as ok (66.4% => ETA Mon May 27 00:53:29 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1680000-1690000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1780000-1790000 to database
+Info:Lattice Sieving: Found 31909 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1660000-1670000.j19x4bjo.gz', total is now 2370526/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1660000-1670000 as ok (67.3% => ETA Mon May 27 00:54:11 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1690000-1700000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1790000-1800000 to database
+Info:Lattice Sieving: Found 30032 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1670000-1680000.qf6iq5fm.gz', total is now 2400558/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1670000-1680000 as ok (68.1% => ETA Mon May 27 00:53:31 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1700000-1710000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1800000-1810000 to database
+Info:Lattice Sieving: Found 29021 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1680000-1690000.44w8z0b9.gz', total is now 2429579/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1680000-1690000 as ok (68.9% => ETA Mon May 27 00:54:12 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1710000-1720000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1810000-1820000 to database
+Info:Lattice Sieving: Found 31084 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1690000-1700000.kxj4rs6h.gz', total is now 2460663/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1690000-1700000 as ok (69.8% => ETA Mon May 27 00:53:42 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1720000-1730000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1820000-1830000 to database
+Info:Lattice Sieving: Found 29990 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1700000-1710000.sxmfgaxe.gz', total is now 2490653/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1700000-1710000 as ok (70.7% => ETA Mon May 27 00:54:10 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1730000-1740000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1830000-1840000 to database
+Info:Lattice Sieving: Found 27619 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1710000-1720000.hndi6zrp.gz', total is now 2518272/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1710000-1720000 as ok (71.5% => ETA Mon May 27 00:53:40 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1740000-1750000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1840000-1850000 to database
+Info:Lattice Sieving: Found 31813 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1720000-1730000.klct08hs.gz', total is now 2550085/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1720000-1730000 as ok (72.4% => ETA Mon May 27 00:54:26 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1750000-1760000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1850000-1860000 to database
+Info:Lattice Sieving: Found 32468 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1730000-1740000.hrdm6yfe.gz', total is now 2582553/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1730000-1740000 as ok (73.3% => ETA Mon May 27 00:53:57 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1760000-1770000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1860000-1870000 to database
+Info:Lattice Sieving: Found 31552 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1740000-1750000.1fp3_b6r.gz', total is now 2614105/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1740000-1750000 as ok (74.2% => ETA Mon May 27 00:54:34 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1770000-1780000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1870000-1880000 to database
+Info:Lattice Sieving: Found 31058 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1750000-1760000.l8cdrtnu.gz', total is now 2645163/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1750000-1760000 as ok (75.1% => ETA Mon May 27 00:54:00 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1780000-1790000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1880000-1890000 to database
+Info:Lattice Sieving: Found 28497 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1760000-1770000.cq405ve1.gz', total is now 2673660/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1760000-1770000 as ok (75.9% => ETA Mon May 27 00:54:41 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1790000-1800000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1890000-1900000 to database
+Info:Lattice Sieving: Found 31638 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1770000-1780000.nz5ygmn3.gz', total is now 2705298/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1770000-1780000 as ok (76.8% => ETA Mon May 27 00:54:24 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1800000-1810000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1900000-1910000 to database
+Info:Lattice Sieving: Found 31210 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1780000-1790000.xitmjm_t.gz', total is now 2736508/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1780000-1790000 as ok (77.6% => ETA Mon May 27 00:54:52 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1810000-1820000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1910000-1920000 to database
+Info:Lattice Sieving: Found 31751 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1790000-1800000.f8uv7m4k.gz', total is now 2768259/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1790000-1800000 as ok (78.6% => ETA Mon May 27 00:54:37 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1820000-1830000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1920000-1930000 to database
+Info:Lattice Sieving: Found 32550 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1800000-1810000.cct630_u.gz', total is now 2800809/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1800000-1810000 as ok (79.5% => ETA Mon May 27 00:55:09 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1830000-1840000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1930000-1940000 to database
+Info:Lattice Sieving: Found 29921 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1810000-1820000.73vwhd3f.gz', total is now 2830730/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1810000-1820000 as ok (80.3% => ETA Mon May 27 00:54:44 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1840000-1850000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1940000-1950000 to database
+Info:Lattice Sieving: Found 29993 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1820000-1830000.yc43lqv_.gz', total is now 2860723/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1820000-1830000 as ok (81.2% => ETA Mon May 27 00:55:23 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1850000-1860000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1950000-1960000 to database
+Info:Lattice Sieving: Found 28594 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1830000-1840000.ghk85t_x.gz', total is now 2889317/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1830000-1840000 as ok (82.0% => ETA Mon May 27 00:54:51 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1860000-1870000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1960000-1970000 to database
+Info:Lattice Sieving: Found 28388 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1840000-1850000.n9hd6z2a.gz', total is now 2917705/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1840000-1850000 as ok (82.8% => ETA Mon May 27 00:55:32 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1870000-1880000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1970000-1980000 to database
+Info:Lattice Sieving: Found 31641 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1850000-1860000.65hgacdp.gz', total is now 2949346/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1850000-1860000 as ok (83.7% => ETA Mon May 27 00:55:13 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1880000-1890000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_1980000-1990000 to database
+Info:Lattice Sieving: Found 28877 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1860000-1870000.1yo9ri_q.gz', total is now 2978223/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1860000-1870000 as ok (84.5% => ETA Mon May 27 00:55:31 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1890000-1900000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_1990000-2000000 to database
+Info:Lattice Sieving: Found 31986 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1870000-1880000.z_f_6ty_.gz', total is now 3010209/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1870000-1880000 as ok (85.4% => ETA Mon May 27 00:55:23 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1900000-1910000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_2000000-2010000 to database
+Info:Lattice Sieving: Found 29770 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1880000-1890000.wgjktrqk.gz', total is now 3039979/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1880000-1890000 as ok (86.3% => ETA Mon May 27 00:55:32 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1910000-1920000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_2010000-2020000 to database
+Info:Lattice Sieving: Found 28802 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1890000-1900000.5xiwd5if.gz', total is now 3068781/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1890000-1900000 as ok (87.1% => ETA Mon May 27 00:55:33 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1920000-1930000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_2020000-2030000 to database
+Info:Lattice Sieving: Found 30695 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1900000-1910000.k73tem7k.gz', total is now 3099476/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1900000-1910000 as ok (87.9% => ETA Mon May 27 00:55:54 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1930000-1940000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_2030000-2040000 to database
+Info:Lattice Sieving: Found 29961 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1910000-1920000.brwasx3h.gz', total is now 3129437/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1910000-1920000 as ok (88.8% => ETA Mon May 27 00:55:57 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1940000-1950000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_2040000-2050000 to database
+Info:Lattice Sieving: Found 28990 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1920000-1930000.tri1png1.gz', total is now 3158427/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1920000-1930000 as ok (89.6% => ETA Mon May 27 00:56:16 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1950000-1960000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_2050000-2060000 to database
+Info:Lattice Sieving: Found 30204 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1930000-1940000.yyu796pd.gz', total is now 3188631/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1930000-1940000 as ok (90.5% => ETA Mon May 27 00:56:17 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1960000-1970000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_2060000-2070000 to database
+Info:Lattice Sieving: Found 30657 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1940000-1950000.ayxt29yh.gz', total is now 3219288/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1940000-1950000 as ok (91.3% => ETA Mon May 27 00:56:25 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1970000-1980000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_2070000-2080000 to database
+Info:Lattice Sieving: Found 30693 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1950000-1960000.uaw2lynl.gz', total is now 3249981/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1950000-1960000 as ok (92.2% => ETA Mon May 27 00:56:27 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1980000-1990000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_2080000-2090000 to database
+Info:Lattice Sieving: Found 26333 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1960000-1970000.41h36byg.gz', total is now 3276314/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1960000-1970000 as ok (93.0% => ETA Mon May 27 00:56:24 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_1990000-2000000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_2090000-2100000 to database
+Info:Lattice Sieving: Found 30088 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1970000-1980000.7n6f8eto.gz', total is now 3306402/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1970000-1980000 as ok (93.8% => ETA Mon May 27 00:56:42 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_2000000-2010000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_2100000-2110000 to database
+Info:Lattice Sieving: Found 28164 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1980000-1990000.cvhf_sx9.gz', total is now 3334566/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1980000-1990000 as ok (94.6% => ETA Mon May 27 00:56:26 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_2010000-2020000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_2110000-2120000 to database
+Info:Lattice Sieving: Found 29837 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.1990000-2000000.ad8b3nko.gz', total is now 3364403/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_1990000-2000000 as ok (95.5% => ETA Mon May 27 00:56:50 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_2020000-2030000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_2120000-2130000 to database
+Info:Lattice Sieving: Found 29688 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.2000000-2010000.ao8m70cd.gz', total is now 3394091/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_2000000-2010000 as ok (96.3% => ETA Mon May 27 00:56:31 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_2030000-2040000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_2130000-2140000 to database
+Info:Lattice Sieving: Found 29308 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.2010000-2020000.t82n1fug.gz', total is now 3423399/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_2010000-2020000 as ok (97.1% => ETA Mon May 27 00:56:53 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_2040000-2050000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_2140000-2150000 to database
+Info:Lattice Sieving: Found 27815 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.2020000-2030000.gezrwyht.gz', total is now 3451214/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_2020000-2030000 as ok (97.9% => ETA Mon May 27 00:56:34 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_2050000-2060000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_2150000-2160000 to database
+Info:Lattice Sieving: Found 28239 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.2030000-2040000.cx06463f.gz', total is now 3479453/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_2030000-2040000 as ok (98.7% => ETA Mon May 27 00:56:59 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_2060000-2070000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_2160000-2170000 to database
+Info:Lattice Sieving: Found 29803 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.2040000-2050000.024weqg8.gz', total is now 3509256/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_2040000-2050000 as ok (99.6% => ETA Mon May 27 00:56:42 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_2070000-2080000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_2170000-2180000 to database
+Info:Lattice Sieving: Found 31850 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.2050000-2060000.z0i85i93.gz', total is now 3541106/3524161
+Info:Lattice Sieving: Marking workunit c110_sieving_2050000-2060000 as ok (100.5% => ETA Mon May 27 00:57:10 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_2080000-2090000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_2180000-2190000 to database
+Info:Lattice Sieving: Reached target of 3524161 relations, now have 3541106
+Info:Lattice Sieving: Aggregate statistics:
+Info:Lattice Sieving: Total number of relations: 3541106
+Info:Lattice Sieving: Average J: 1889.2 for 76906 special-q, max bucket fill: 0.75183
+Info:Lattice Sieving: Total CPU time: 27837s
+Info:Filtering - Duplicate Removal, splitting pass: Starting
+Info:Filtering - Duplicate Removal, splitting pass: Splitting 109 new files
+Info:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 1770593, 1: 1770513
+Info:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 10.73/22.6347
+Info:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+Info:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 22.5s
+Info:Filtering - Duplicate Removal, removal pass: Starting
+Info:Filtering - Duplicate Removal, removal pass: 1492015 unique relations remain on slice 0
+Info:Filtering - Duplicate Removal, removal pass: 1491694 unique relations remain on slice 1
+Info:Filtering - Duplicate Removal, removal pass: Of 3541106 newly added relations 2983709 were unique (ratio 0.842592)
+Info:Filtering - Duplicate Removal, removal pass: 2983709 unique relations remain in total
+Info:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 45.4/35.9937
+Info:Filtering - Singleton removal: Starting
+Info:Filtering - Singleton removal: Reading 2983709 unique and 16985 free relations, total 3000694
+Warning:Command: Process with PID 5592 finished with return code 2
+Info:Filtering - Singleton removal: After purge, 1381495 relations with 1392967 primes remain with excess -11472
+Info:Filtering - Singleton removal: Not enough relations
+Info:Filtering - Singleton removal: Requesting 29837 additional relations
+Info:Filtering - Duplicate Removal, removal pass: Got request for 3013546 (29837 additional) output relations, estimate 3576517 (35411 additional) needed in input
+Info:Lattice Sieving: New goal for number of relations is 3576517, currently have 3541106. Need to sieve more
+Info:Filtering - Singleton removal: Total cpu/real time for purge: 9.32/9.32183
+Info:Lattice Sieving: Starting
+Info:Lattice Sieving: We want 3576517 relations
+Info:Lattice Sieving: Found 29812 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.2060000-2070000.13rlwivb.gz', total is now 3570918/3576517
+Info:Lattice Sieving: Marking workunit c110_sieving_2060000-2070000 as ok (99.8% => ETA Mon May 27 00:59:48 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_2090000-2100000 to client localhost+2
+Info:Lattice Sieving: Adding workunit c110_sieving_2190000-2200000 to database
+Info:Lattice Sieving: Found 28083 relations in '/tmp/cado.2kwq0x7a/c110.upload/c110.2070000-2080000.tvmxmaj8.gz', total is now 3599001/3576517
+Info:Lattice Sieving: Marking workunit c110_sieving_2070000-2080000 as ok (100.6% => ETA Mon May 27 00:59:29 2019)
+Info:HTTP server: 127.0.0.1 Sending workunit c110_sieving_2100000-2110000 to client localhost
+Info:Lattice Sieving: Adding workunit c110_sieving_2200000-2210000 to database
+Info:Lattice Sieving: Reached target of 3576517 relations, now have 3599001
+Info:Filtering - Duplicate Removal, splitting pass: Starting
+Info:Filtering - Duplicate Removal, splitting pass: Splitting 2 new files
+Info:Filtering - Duplicate Removal, splitting pass: Relations per slice: 0: 1799626, 1: 1799375
+Info:Filtering - Duplicate Removal, removal pass: Starting
+Info:Filtering - Duplicate Removal, removal pass: 1513079 unique relations remain on slice 0
+Info:Filtering - Duplicate Removal, removal pass: 1512686 unique relations remain on slice 1
+Info:Filtering - Duplicate Removal, removal pass: Of 57895 newly added relations 42056 were unique (ratio 0.726419)
+Info:Filtering - Duplicate Removal, removal pass: 3025765 unique relations remain in total
+Info:Filtering - Singleton removal: Starting
+Info:Filtering - Singleton removal: Reading 3025765 unique and 16985 free relations, total 3042750
+Info:Filtering - Singleton removal: After purge, 1347996 relations with 1347836 primes remain with weight 24126885 and excess 160
+Info:Filtering - Singleton removal: Have enough relations
+Info:HTTP server: Got notification to stop serving Workunits
+Info:Lattice Sieving: Cancelling remaining workunits
+Info:Client Launcher: Stopped client localhost (Host localhost, PID 31026)
+Info:Client Launcher: Stopped client localhost+2 (Host localhost, PID 31028)
+Info:Filtering - Merging: Starting
+Info:Filtering - Merging: Merged matrix has 312759 rows and total weight 53169407 (170.0 entries per row on average)
+Info:Linear Algebra: Starting
+Info:Linear Algebra: krylov: N=1000 ; ETA (N=10000): Mon May 27 01:12:24 2019 [0.048 s/iter]
+Info:Linear Algebra: krylov: N=2000 ; ETA (N=10000): Mon May 27 01:12:24 2019 [0.048 s/iter]
+Info:Linear Algebra: krylov: N=3000 ; ETA (N=10000): Mon May 27 01:12:20 2019 [0.047 s/iter]
+Info:Linear Algebra: krylov: N=4000 ; ETA (N=10000): Mon May 27 01:12:19 2019 [0.047 s/iter]
+Info:Linear Algebra: krylov: N=5000 ; ETA (N=10000): Mon May 27 01:12:19 2019 [0.047 s/iter]
+Info:Linear Algebra: krylov: N=6000 ; ETA (N=10000): Mon May 27 01:12:19 2019 [0.047 s/iter]
+Info:Linear Algebra: krylov: N=7000 ; ETA (N=10000): Mon May 27 01:12:18 2019 [0.047 s/iter]
+Info:Linear Algebra: krylov: N=8000 ; ETA (N=10000): Mon May 27 01:12:17 2019 [0.047 s/iter]
+Info:Linear Algebra: krylov: N=9000 ; ETA (N=10000): Mon May 27 01:12:17 2019 [0.047 s/iter]
+Info:Linear Algebra: krylov: N=10000 ; ETA (N=10000): Mon May 27 01:12:18 2019 [0.047 s/iter]
+Info:Linear Algebra: lingen ETA: Mon May 27 01:12:22 2019
+Info:Linear Algebra: lingen ETA: Mon May 27 01:12:37 2019
+Info:Linear Algebra: lingen ETA: Mon May 27 01:12:39 2019
+Info:Linear Algebra: lingen ETA: Mon May 27 01:12:39 2019
+Info:Linear Algebra: lingen ETA: Mon May 27 01:12:38 2019
+Info:Linear Algebra: lingen ETA: Mon May 27 01:12:38 2019
+Info:Linear Algebra: lingen ETA: Mon May 27 01:12:39 2019
+Info:Linear Algebra: lingen ETA: Mon May 27 01:12:39 2019
+Info:Linear Algebra: mksol: N=1000 ; ETA (N=5000): Mon May 27 01:16:55 2019 [0.052 s/iter]
+Info:Linear Algebra: mksol: N=2000 ; ETA (N=5000): Mon May 27 01:16:57 2019 [0.053 s/iter]
+Info:Linear Algebra: mksol: N=3000 ; ETA (N=5000): Mon May 27 01:16:57 2019 [0.052 s/iter]
+Info:Linear Algebra: mksol: N=4000 ; ETA (N=5000): Mon May 27 01:16:57 2019 [0.052 s/iter]
+Info:Linear Algebra: mksol: N=5000 ; ETA (N=5000): Mon May 27 01:16:57 2019 [0.052 s/iter]
+Info:Quadratic Characters: Starting
+Info:Square Root: Starting
+Info:Square Root: Creating file of (a,b) values
+Info:Square Root: finished
+Info:Square Root: Factors: 1524938362073628791222322453937223798227099080053904149 1385409854850246784644682622624349784560468558795524903
+Info:Polynomial Selection (size optimized): Aggregate statistics:
+Info:Polynomial Selection (size optimized): potential collisions: 27840.2
+Info:Polynomial Selection (size optimized): raw lognorm (nr/min/av/max/std): 28236/31.610/38.312/43.920/0.995
+Info:Polynomial Selection (size optimized): optimized lognorm (nr/min/av/max/std): 28236/31.310/34.625/39.120/1.105
+Info:Polynomial Selection (size optimized): Total time: 1631.17
+Info:Polynomial Selection (root optimized): Aggregate statistics:
+Info:Polynomial Selection (root optimized): Total time: 480.5
+Info:Polynomial Selection (root optimized): Rootsieve time: 478.44
+Info:Generate Factor Base: Total cpu/real time for makefb: 5.36/1.46737
+Info:Generate Free Relations: Total cpu/real time for freerel: 46.89/11.936
+Info:Lattice Sieving: Aggregate statistics:
+Info:Lattice Sieving: Total number of relations: 3599001
+Info:Lattice Sieving: Average J: 1889.08 for 78300 special-q, max bucket fill: 0.75183
+Info:Lattice Sieving: Total CPU time: 28332.5s
+Info:Filtering - Duplicate Removal, splitting pass: Total cpu/real time for dup1: 10.94/23.1172
+Info:Filtering - Duplicate Removal, splitting pass: Aggregate statistics:
+Info:Filtering - Duplicate Removal, splitting pass: CPU time for dup1: 22.8s
+Info:Filtering - Duplicate Removal, removal pass: Total cpu/real time for dup2: 53.32/44.278
+Info:Filtering - Singleton removal: Total cpu/real time for purge: 33.97/30.517
+Info:Filtering - Merging: Total cpu/real time for merge: 126.92/104.981
+Info:Filtering - Merging: Total cpu/real time for replay: 15.21/12.5504
+Info:Linear Algebra: Total cpu/real time for bwc: 3094.38/0.00021553
+Info:Linear Algebra: Aggregate statistics:
+Info:Linear Algebra: Krylov: WCT time 469.84
+Info:Linear Algebra: Lingen CPU time 60.3, WCT time 16.47
+Info:Linear Algebra: Mksol: WCT time 262.59
+Info:Quadratic Characters: Total cpu/real time for characters: 16.74/6.16976
+Info:Square Root: Total cpu/real time for sqrt: 274.32/74.0925
+Info:HTTP server: Shutting down HTTP server
+Info:Complete Factorization: Total cpu/elapsed time for entire factorization: 34122.2/9531.93
+Info:root: Cleaning up computation data in /tmp/cado.2kwq0x7a

@@ -80,7 +80,7 @@ def run_encryption(message, iv, encryption_mode, key):
         f"{iv}",
         "-nopad",
     ]
-    # pdb.set_trace()
+
     ciphertext = subprocess.check_output(
         open_ssl_commands, input=bytes.fromhex(message)
     )

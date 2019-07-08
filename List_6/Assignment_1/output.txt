@@ -1,0 +1,1 @@
+cacertificate_pubkey.pem openssl dgst -md5 -verify pubkey.pem -signature better_grade.sign better_grade.txt
